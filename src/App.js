@@ -6,14 +6,16 @@ function App() {
       <div className='to-do-wrapper'>
       <div className='to-do-contents'>
         <div className='to-do-header'>
-            <h1 className='to-do-title'> To Do List</h1>
-            <div className='new-task-button-section'> 
-            <button className='create-new-task-button'> + </button> 
-            <p className='new-task-text'>Create New Task </p>
-            </div>
+            <h1 className='to-do-title'> To Do List</h1>  
         </div>
       <div className='task-section'> 
-        <form className='task-input'> hello</form>
+      <div className='new-task-button-section'> 
+            <form className='new-task-input'></form>
+            <input type='text' id='ntinput' name='ntinput'></input>
+            <button className='create-new-task-button'> + </button>   
+            <p className='new-task-text'>Create New Task </p>
+      </div>
+        <form className='task-input-list'> hello</form>
       </div>
       </div>
       </div>

@@ -19,7 +19,7 @@ padding: 0;
   position: relative;
   margin: 4rem 2rem 4rem 2rem;
   padding: 28px;
-  background-color: blue;
+  background-color: rgb(1, 1, 73);
   border-radius: 16px;
   max-width: 100%;
   
@@ -30,7 +30,7 @@ padding: 0;
   flex-direction:row ;
   border-radius: 12px;
   padding: 12px;
-  background-color:beige;
+  background-color: rgb(65, 72, 176);
 }
 
 .to-do-header h1{
@@ -42,11 +42,16 @@ padding: 0;
   padding: 20px;
 }
 
+.to-do-title{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 .new-task-button-section{
   display:flex;
   flex-direction: row;
-  margin-left: 16%;
-  padding: 20px;
+  /* margin-left: 16%; */
+  padding: 12px 12px 12px 12px ;
   width: 100%;
 }
 
@@ -59,8 +64,8 @@ padding: 0;
   padding: 10px 10px;
   height: 10px;
   width: 10px;
-  border-style:solid;
-  background-color: beige;
+  border-style:none;
+  background-color: rgb(255, 255, 255);
 }
 
 .new-task-button-section p{
@@ -79,12 +84,12 @@ padding: 0;
   padding: 4px;
   border-radius: 12px;
   width: auto;
-  min-height: 80%;
-  background-color: aqua;
+  /* min-height: 80%; */
+  background-color: rgb(47, 53, 132);
 }
 
-.task-input{
-  background-color: rgb(58, 165, 42);
+.task-input-list{
+  background-color: rgb(65, 72, 176);
   height: 32px;
   border-radius: 6px;
 }
