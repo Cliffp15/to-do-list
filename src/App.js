@@ -1,5 +1,12 @@
 import './App.css';
+import Todo from './Components/todo';
 
+let list = {
+
+  firstname :"john doe",
+    lstname : "doe",
+}
+    
 function App() {
   return (
     <div className="App">
@@ -10,11 +17,7 @@ function App() {
         </div>
       <div className='task-section'> 
       <div className='new-task-button-section'> 
-            <form className='new-task-input'>
-            <input type='text' className='ntinput-section'
-            placeholder='  Enter task' id='ntinput' name='ntinput'></input>
-            <button className='create-new-task-button'> + Add Task</button>   
-            </form>
+            <Todo></Todo>
       </div>
         <form className='task-input-list'> hello</form>
       </div>
