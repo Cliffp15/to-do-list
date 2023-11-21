@@ -10,10 +10,11 @@ function App() {
         </div>
       <div className='task-section'> 
       <div className='new-task-button-section'> 
-            <form className='new-task-input'></form>
-            <input type='text' id='ntinput' name='ntinput'></input>
-            <button className='create-new-task-button'> + </button>   
-            <p className='new-task-text'>Create New Task </p>
+            <form className='new-task-input'>
+            <input type='text' className='ntinput-section'
+            placeholder='  Enter task' id='ntinput' name='ntinput'></input>
+            <button className='create-new-task-button'> + Add Task</button>   
+            </form>
       </div>
         <form className='task-input-list'> hello</form>
       </div>

@@ -47,6 +47,8 @@ padding: 0;
   justify-content: center;
   align-content: center;
 }
+
+
 .new-task-button-section{
   display:flex;
   flex-direction: row;
@@ -55,17 +57,35 @@ padding: 0;
   width: 100%;
 }
 
+
+.new-task-input{
+display:flex
+}
+
+
+.ntinput-section{ 
+  /* display:inline; */
+  margin: 0px;
+  /* border: 0px; */
+  color: black;
+  background-color: rgb(37, 43, 132);
+  border: 1px solid rgb(120, 120, 233);
+  padding: auto;
+  /* border-color: aquamarine; */
+}
+
+
 .create-new-task-button{
-  display: flex;
+  display:inline;
   justify-content: center;
   align-items: center;
-  border-radius:60px;
-  margin: auto .5rem ;
+  /* border-radius:60px; */
+  margin:  0px 0px 0px 1px;
   padding: 10px 10px;
-  height: 10px;
-  width: 10px;
+  height: 100%;
+  width: 100%;
   border-style:none;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(65, 72, 176);
 }
 
 .new-task-button-section p{
