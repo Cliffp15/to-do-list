@@ -1,3 +1,4 @@
+// import { counter } from "@fortawesome/fontawesome-svg-core";
 import React from "react";
 
 const Todo = ({ Todoinfo }) => {
@@ -15,7 +16,10 @@ const Todo = ({ Todoinfo }) => {
 // }
 
 return (
-
+    /*Change the data using the prop base don the information that 
+        could change formt todo to todo. 
+        Ex. Todo itselfs getValue, the Date, the TimeRanges, etc.
+        (Get more ideea for information from other todo apps)*/
     <form className='new-task-input'>
         <input type='text' className='ntinput-section'
             placeholder='  Enter task' id='ntinput' name='ntinput'></input>

@@ -1,14 +1,31 @@
+import { useState } from 'react';
 import './App.css';
 import Todo from './Components/todo';
 
-let list = {
-
-  firstname :"john doe",
-    lstname : "doe",
-}
     
+
 function App() {
+
+// const [todoitem, settodoitem]  = useState([""]);
+let todoitem = [];
+
+function addtodo(task){
+   let newtodo = {
+    task, 
+    iscompleted: false,
+    id: Date.now
+  }
+  todoitem.push(newtodo)
+  console.log(todoitem)
+}
+
+let store = "go to store";
+ addtodo(store);
+
   return (
+
+    
+   
     <div className="App">
       <div className='to-do-wrapper'>
       <div className='to-do-contents'>
