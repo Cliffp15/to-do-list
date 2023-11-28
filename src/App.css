@@ -86,7 +86,15 @@ display:flex
   width: 100%;
   border-style:none;
   background-color: rgb(65, 72, 176);
+
 }
+
+.create-new-task-button:hover{
+  background-color: rgb(139, 145, 231);
+
+
+}
+
 
 .new-task-button-section p{
   display:block;
