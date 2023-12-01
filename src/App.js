@@ -39,7 +39,7 @@ let store = "go to store";
         </div>
       <div className='task-section'> 
       <div className='new-task-button-section'>
-      <form className="new-task-input">
+      {/* <form className="new-task-input">
         <input
         type="text"
         className="ntinput-section"
@@ -47,15 +47,15 @@ let store = "go to store";
         defaultValue="Enter text here"
         id="ntinput"
         name="ntinput"
-    ></input>
-    <button type='button' className="create-new-task-button" onClick={addtodo}> + Add Task</button>
-    
-    </form> 
-            {/* <Todo></Todo> */}
+        ></input>
+        <button type='button' className="create-new-task-button" onClick={addtodo}> + Add Task</button>
+    </form>  */}
+            
       </div>
-      <div className='todo-display-section'> {
-        //  todoitem.map()
-      }
+      <div className='todo-display-section'> 
+      {todoitem.map((todoinfo, index) => (<Todo key = {index} todoinfo={todoinfo} />))}
+      
+      {/* <Todo></Todo> */}
        
         
         <form className='task-input-list'> hello</form>
