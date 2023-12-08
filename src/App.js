@@ -1,32 +1,16 @@
 import { useState } from 'react';
 import './App.css';
-import Todo from './Components/todo';
+import { Todowrapper } from './Components/Todowrapper';
 
     
 
 function App() {
-
-// const [todoitem, settodoitem]  = useState([""]);
-let todoitem = [];
-
-function addtodo(task){
-   let newtodo = {
-    task, 
-    iscompleted: false,
-    id: Date.now
-  }
-  todoitem.push(newtodo)
-  console.log(todoitem)
-}
-
-let store = "go to store";
- addtodo(store);
-
   return (
-
-    
-   
     <div className="App">
+    <Todowrapper/> 
+    </div>
+    
+    /*<div className="App">
       <div className='to-do-wrapper'>
       <div className='to-do-contents'>
         <div className='to-do-header'>
@@ -41,6 +25,8 @@ let store = "go to store";
       </div>
       </div>
     </div>
+    */
+
   );
 }
 
